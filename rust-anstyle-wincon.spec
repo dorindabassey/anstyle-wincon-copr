@@ -5,7 +5,7 @@
 %global crate anstyle-wincon
 
 Name:           rust-anstyle-wincon
-Version:        3.0.2
+Version:        1.0.0
 Release:        %autorelease
 Summary:        Styling legacy Windows terminals
 
@@ -68,4 +68,7 @@ use the "default" feature of the "%{crate}" crate.
 %endif
 
 %changelog
+* Sat Feb 10 2024 Dorinda Bassey <dbassey@redhat.com>
+- new package built with tito
+
 %autochangelog
