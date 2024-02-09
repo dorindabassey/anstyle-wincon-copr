@@ -1,0 +1,12 @@
+--- anstyle-wincon-3.0.2/Cargo.toml	1970-01-01T00:00:01+00:00
++++ anstyle-wincon-3.0.2/Cargo.toml	2024-02-09T22:50:50.279396+00:00
+@@ -86,9 +86,3 @@
+ [dev-dependencies.lexopt]
+ version = "0.3.0"
+ 
+-[target."cfg(windows)".dependencies.windows-sys]
+-version = "0.52.0"
+-features = [
+-    "Win32_System_Console",
+-    "Win32_Foundation",
+-]
